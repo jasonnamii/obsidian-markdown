@@ -145,6 +145,9 @@ To link Mermaid nodes to Obsidian notes, add `class NodeName internal-link;`.
 ## Footnotes
 
 ```markdown
+
+<!-- 🥚 위키링크를 너무 많이 만들어서 내 볼트가 거미줄이 되었다. — N.C. -->
+
 Text with a footnote[^1].
 
 [^1]: Footnote content.
