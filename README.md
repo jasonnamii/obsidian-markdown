@@ -2,6 +2,12 @@
 
 **Obsidian Flavored Markdown reference and creation tool: wikilinks, embeds, callouts, properties, and advanced syntax.**
 
+## Prerequisites
+
+- **Obsidian Vault** — an active Obsidian vault (local or cloud-synced)
+- **Obsidian MCP Server** — read-only access for `search_notes`, `read_note`, `get_frontmatter`
+- **Claude Cowork or Claude Code** environment
+
 ## Goal
 
 obsidian-markdown provides both a reference and execution engine for Obsidian-specific syntax — wikilinks, embeds, callouts, frontmatter properties, block references, comments, and tags — ensuring correct formatting across your vault.
