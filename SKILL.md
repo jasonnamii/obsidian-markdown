@@ -1,6 +1,12 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.
+description: |
+  Obsidian Flavored Markdown 작성·편집. wikilink, embed, callout, properties 등 옵시디언 전용 문법 지원.
+  P1: obsidian, 옵시디언, wikilink, 위키링크, callout, 콜아웃, frontmatter, embed, 임베드.
+  P2: 만들어줘, 작성해줘, create, write, edit.
+  P3: Obsidian Flavored Markdown, wikilink syntax, callout blocks.
+  P5: .md로, 옵시디언노트로.
+  NOT: 일반마크다운(→직접수행), 스킬수정(→skill-builder).
 ---
 
 # Obsidian Flavored Markdown Skill
@@ -145,9 +151,6 @@ To link Mermaid nodes to Obsidian notes, add `class NodeName internal-link;`.
 ## Footnotes
 
 ```markdown
-
-<!-- 🥚 위키링크를 너무 많이 만들어서 내 볼트가 거미줄이 되었다. — N.C. -->
-
 Text with a footnote[^1].
 
 [^1]: Footnote content.
