@@ -1,5 +1,7 @@
 # obsidian-markdown
 
+> 🇰🇷 [한국어 README](./README.ko.md)
+
 **Obsidian Flavored Markdown reference and creation tool: wikilinks, embeds, callouts, properties, and advanced syntax.**
 
 ## Prerequisites
