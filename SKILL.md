@@ -195,6 +195,8 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 
 ## References
 
+조건부 로드: 요청 유형별 필수 reference 매핑: wikilink/embed 작업 → EMBEDS.md만. callout 작업 → CALLOUTS.md만. properties 작업 → PROPERTIES.md만. 복합 작업 → 해당 파일들만 로드. 3개 전부 로드는 '옵시디언 문법 전체 적용' 명시 요청 시만.
+
 - [Obsidian Flavored Markdown](https://help.obsidian.md/obsidian-flavored-markdown)
 - [Internal links](https://help.obsidian.md/links)
 - [Embed files](https://help.obsidian.md/embeds)
