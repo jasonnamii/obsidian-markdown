@@ -7,6 +7,7 @@ description: |
   P3: Obsidian Flavored Markdown, wikilink syntax, callout blocks.
   P5: .md로, 옵시디언노트로.
   NOT: 일반마크다운(→직접수행), 스킬수정(→skill-builder).
+vault_dependency: HARD
 ---
 
 # Obsidian Flavored Markdown Skill
