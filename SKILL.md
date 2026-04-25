@@ -203,3 +203,16 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 - [Embed files](https://help.obsidian.md/embeds)
 - [Callouts](https://help.obsidian.md/callouts)
 - [Properties](https://help.obsidian.md/properties)
+
+## §INV NO_WORK_LABEL (산출물·대화 본질 보호)
+
+| 항목 | 정의 |
+|------|------|
+| RULE | 산출물·대화 = 인간 언어. 작업 라벨 ZERO. (1만 페이지 1단어 = FAIL) |
+| 판정 | "이 단어, 이 대화 밖 사람이 사전 없이 읽을 수 있나?" NO → 작업 라벨 → 금지 |
+| ALLOW | 업계 전문용어(wikilink·embed·callout·frontmatter·CommonMark·GFM·YAML·LaTeX·Mermaid) · 고유명사(Obsidian) |
+| CONVERT | 라벨 발견 → 실명·평문 풀어쓰기. 예) 내부 문법 용어는 작성·편집 가이드에 한정. 사용자 노출 노트(.md 본문)에는 작업 라벨 ZERO |
+| SELF_CHECK | .md 노트 본문 출력 직전에서 자체 스캔. 1개라도 발견 = 차단·재작성. paper-engine cascade 경유 시 INV 13 자동 적용 |
+
+---
+
