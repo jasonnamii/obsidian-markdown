@@ -205,5 +205,5 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 - [Properties](https://help.obsidian.md/properties)
 
 ## §INV NO_WORK_LABEL
-산출물·대화 작업 라벨 ZERO. → `paper-engine/references/no-work-label.md`
+산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
