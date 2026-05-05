@@ -2,11 +2,12 @@
 name: obsidian-markdown
 description: |
   Obsidian Flavored Markdown 작성·편집. wikilink, embed, callout, properties 등 옵시디언 전용 문법 지원.
-  P1: obsidian, 옵시디언, wikilink, 위키링크, callout, 콜아웃, frontmatter, embed, 임베드.
-  P2: 만들어줘, 작성해줘, create, write, edit.
-  P3: Obsidian Flavored Markdown, wikilink syntax, callout blocks.
-  P5: .md로, 옵시디언노트로.
-  NOT: 일반마크다운(→직접수행), 스킬수정(→skill-builder).
+    P1: obsidian, 옵시디언, wikilink, 위키링크, callout, 콜아웃, frontmatter, embed, 임베드, obsidian markdown, 옵시디언노트, 옵시디언문서, 옵시디언파일, 옵시디언작성, 옵시디언편집, 위키링크문법, 콜아웃문법, properties, 프로퍼티, vault, 볼트, 옵시디언문법, OFM.
+    P2: 만들어줘, 작성해줘, create, write, edit, 옵시디언 파일 만들어줘, 옵시디언으로 작성해줘, wikilink 써줘, callout 추가해줘, 옵시디언 노트 생성해줘.
+    P3: Obsidian Flavored Markdown, wikilink syntax, callout blocks, frontmatter properties, obsidian embed syntax.
+    P4: 옵시디언 노트 작성·편집시, 위키링크·콜아웃·임베드 문법이 필요할 때.
+    P5: .md로, 옵시디언노트로.
+    NOT: 일반마크다운(→직접수행), 스킬수정(→skill-builder), 옵시디언 볼트관리(→vault-mount).
 vault_dependency: HARD
 ---
 
