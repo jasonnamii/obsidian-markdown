@@ -15,6 +15,27 @@ vault_dependency: HARD
 
 Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark and GFM with wikilinks, embeds, callouts, properties, comments, and other syntax. This skill covers only Obsidian-specific extensions -- standard Markdown (headings, bold, italic, lists, quotes, code blocks, tables) is assumed knowledge.
 
+
+## Skill Boundaries
+
+- **하는 것** — Obsidian Flavored Markdown 작성·편집.
+- **안 하는 것** — 일반마크다운(→직접수행), 스킬수정(→skill-builder), 옵시디언 볼트관리(→vault-mount).
+
+## When to Use
+
+- 사용자가 "만들어줘", "작성해줘", "create", "write", "edit" 같은 표현으로 발동
+- 옵시디언 노트 작성·편집시, 위키링크·콜아웃·임베드 문법이 필요할 때.
+- **안 쓸 때** — 일반마크다운(→직접수행), 스킬수정(→skill-builder), 옵시디언 볼트관리(→vault-mount).
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
+
 ## Workflow: Creating an Obsidian Note
 
 1. **Add frontmatter** with properties (title, tags, aliases) at the top of the file. See [PROPERTIES.md](references/PROPERTIES.md) for all property types.
@@ -208,3 +229,45 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 ## §INV NO_WORK_LABEL
 산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
+
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/obsidian-markdown_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | .md로, 옵시디언노트로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/obsidian-markdown/{YYYY-MM-DD}_{topic}.md` |
+
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/CALLOUTS.md` | CALLOUTS | 해당 단계 진입 시 |
+| `references/EMBEDS.md` | EMBEDS | 해당 단계 진입 시 |
+| `references/PROPERTIES.md` | PROPERTIES | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `직접수행`
+- 후속 작업 → `skill-builder`
+- 후속 작업 → `vault-mount`
+
+
+## Failure Modes (Gotchas)
+
+| 함정 | 대응 |
+|---|---|
+| 트리거 오발동 | description NOT: 항목 확인 |
+| 의존 파일 부재 | Prerequisites 표 재확인 |
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
